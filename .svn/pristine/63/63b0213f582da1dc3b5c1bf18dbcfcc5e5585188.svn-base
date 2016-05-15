@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_0ae3c743c7537e8e229376b8434919c123475e0e\classes.dex" />
+    </item>
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_3c3c0da04d4aed8b7808cb0892995a7e0e9d04e4\classes.dex" />
+    </item>
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_a5db88b54f5219548794f24468e699b3078c0d46\classes.dex" />
+    </item>
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_635e3e923ad8ee64b0f9239e9ad9ad4a943342f1\classes.dex" />
+    </item>
+    <item
+        jar="D:\Android_studio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_98ef28e687ce085bd38c6499ad8b28f8686e6b0d\classes.dex" />
+    </item>
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="32a84f3e430996f585351db39e897d67f8593d23">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_7d74ff5e15be9865b9d67a0a37b6ad3317322c34\classes.dex" />
+    </item>
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="606f79b7a596dddaf3de3d1f4495c18bb2f381d7">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_51ecbf8aa77d832c54b1c9ebd1fd36ae294eade9\classes.dex" />
+    </item>
+    <item
+        jar="G:\android\mobilesafe\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="G:\android\mobilesafe\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_34889eee5ebc0ed85f3b0871c06978f7926c52c2\classes.dex" />
+    </item>
+
+</items>

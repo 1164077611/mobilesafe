@@ -1,0 +1,33 @@
+package com.csx.mobilesafe.activity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.csx.mobilesafe.R;
+import com.csx.mobilesafe.utils.PrefUtils;
+
+
+/**
+ * 手机防盗页面
+ * 
+ * @author Kevin
+ * 
+ */
+public class LostAndFindActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		// 判断是否第一次进入
+		boolean configed = PrefUtils.getBoolean("configed", false, this);
+		if (!configed) {
+			// 进入设置向导页面
+			startActivity(new Intent(this, Setup1Activity.class));
+			finish();
+		} else {
+			setContentView(R.layout.activity_lost_and_find);
+		}
+	}
+
+}

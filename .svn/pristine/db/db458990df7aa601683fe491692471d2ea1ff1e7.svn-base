@@ -1,0 +1,65 @@
+package com.csx.mobilesafe.activity;
+
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+
+import com.csx.mobilesafe.R;
+import com.csx.mobilesafe.utils.PrefUtils;
+import com.csx.mobilesafe.view.SettingItemView;
+
+/**
+ * 设置文件
+ * @author csx
+ */
+public class SettingActivity extends AppCompatActivity {
+
+    private SettingItemView sivUpdate;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_setting);
+        // sp = getSharedPreferences("config", MODE_PRIVATE);
+        initUpdate();
+    }
+
+
+    /**
+     * 初始化自动更新设置
+     */
+    private void initUpdate() {
+        sivUpdate = (SettingItemView) findViewById(R.id.siv_update);
+        // sivUpdate.setTitle("自动更新设置");
+
+        boolean autoUpdate = PrefUtils.getBoolean("auto_update", true, this);
+        // if (autoUpdate) {
+        // //sivUpdate.setDesc("自动更新已开启");
+        // sivUpdate.setChecked(true);
+        // } else {
+        // //sivUpdate.setDesc("自动更新已关闭");
+        // sivUpdate.setChecked(false);
+        // }
+        sivUpdate.setChecked(autoUpdate);
+
+        sivUpdate.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if (sivUpdate.isChecked()) {
+                    sivUpdate.setChecked(false);
+                    // sivUpdate.setDesc("自动更新已关闭");
+                    // sp.edit().putBoolean("auto_update", false).commit();
+                    PrefUtils.putBoolean("auto_update", false,
+                            getApplicationContext());
+                } else {
+                    sivUpdate.setChecked(true);
+                    // sivUpdate.setDesc("自动更新已开启");
+                    // sp.edit().putBoolean("auto_update", true).commit();
+                    PrefUtils.putBoolean("auto_update", true,
+                            getApplicationContext());
+                }
+            }
+        });
+    }
+}
